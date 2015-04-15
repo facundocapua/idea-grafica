@@ -1,0 +1,161 @@
+@import "general.less";
+@import "header.less";
+@import "buttons.less";
+@import "sidebar.less";
+@import "footer.less";
+@import "tabs.less";
+
+body{
+    background-image: url(../images/bg-body.gif);
+    background-repeat: repeat-x;
+    background-position: left top;
+    background-color: #ffffff;
+
+    #wrapper{
+        width:960px;
+        margin:0 auto;
+
+        .content{
+            .content-home{
+                float: right;
+                width: 750px;
+                padding-top:20px;
+
+                ul.first-level{
+                    li{
+                        float:left;
+                        width:166px;
+
+                        h3{
+                            font-size: 14px;
+                            color: #6d6d6d;
+                            line-height: 14px;
+                            margin: 15px 0;
+                        }
+
+                        p{
+                        font-family: Arial;
+                            font-size: 11px;
+                            color: #6d6d6d;
+                            text-decoration: none;
+                            line-height: 22px;
+
+                            a{
+                                color: #6d6d6d;
+                            }
+                        }
+
+                        ul.second-level{
+                            li{
+                                display: block;
+                                background-image: url(../images/arrow-grey.png);
+                                background-repeat: no-repeat;
+                                background-position: left 6px;
+                                padding-left: 13px;
+                                margin-bottom:13px;
+                                a{
+                                    font-family: Arial;
+                                    font-size: 11px;
+                                    color: #6d6d6d;
+                                    text-decoration: none;
+
+                                    &:hover{
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                div.separator{
+                    height: 47px;
+                    .border-dotted;
+                }
+
+                ul#gallery{
+                    li{
+                        a{
+                            img{
+                                .opacity(30);
+                            }
+
+                            &:hover{
+                                img{
+                                    .opacity(100);
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            .content-aboutus{
+                float: right;
+                width: 750px;
+                padding-top:20px;
+
+                p{
+                    font-family: Arial;
+                    font-size: 11px;
+                    color:#707070;
+                    line-height: 18px;
+                }
+
+                ul.customer-grid{
+                    li{
+                        width: 100px;
+                        height: 77px;
+                        margin: 0 15px 25px 0;
+                        float: left;
+
+                        img{
+                            .opacity(30);
+                        }
+
+                        &:hover{
+                            img{
+                                .opacity(100);
+                            }
+                        }
+                    }
+                }
+            }
+
+            .content-gallery{
+                float: right;
+                width: 750px;
+                padding-top:20px;
+
+                p{
+                    font-family: Arial;
+                    font-size: 11px;
+                    color:#707070;
+                    line-height: 18px;
+                }
+
+                ul.gallery-grid{
+                    margin-top:20px;
+
+                    li{
+                        width: 100px;
+                        height: 77px;
+                        margin: 0 15px 25px 0;
+                        float: left;
+
+                        img{
+                            .opacity(30);
+                        }
+
+                        &:hover{
+                            img{
+                                .opacity(100);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

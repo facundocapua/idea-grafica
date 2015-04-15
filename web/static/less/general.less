@@ -1,0 +1,84 @@
+.gotham-bold, .gotham-book, .gotham-extra-light{
+    visibility: hidden;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.border-dotted{
+    border-bottom:3px dotted #e2e2e2;
+}
+
+.opacity(@op:100)
+{
+	filter:alpha(opacity=@op);
+	-moz-opacity:@op/100;
+	-khtml-opacity:@op/100;
+	opacity:@op/100;
+}
+
+.rounded-corners (@radius: 5px) {
+  border-radius: @radius;
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+}
+
+.drop-shadow(@x:0, @y:0, @blur:0, @color:#444){
+    box-shadow: @x @y @blur @color;
+    -o-box-shadow: @x @y @blur @color;
+    -webkit-box-shadow: @x @y @blur @color;
+    -moz-box-shadow: @x @y @blur @color;
+}
+
+.rotate (@deg) {
+	-webkit-transform: rotate(@deg);
+	-moz-transform: 	 rotate(@deg);
+	-ms-transform: 		 rotate(@deg);
+	-o-transform: 		 rotate(@deg);
+}
+
+.transform (@rotate: 90deg, @scale: 1, @skew: 1deg, @translate: 10px) {
+	-webkit-transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+	-moz-transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+	-o-transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+	-ms-transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+	transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+}
+
+textarea{
+    resize: none;
+}
+
+
+ul.common{
+    margin:15px;
+
+    li{
+        display: block;
+        background-image: url(../images/arrow-grey.png);
+        background-repeat: no-repeat;
+        background-position: left 2px;
+        padding-left: 13px;
+        margin-bottom:13px;
+        font-family: Arial;
+        font-size: 11px;
+        color: #6d6d6d;
+        a{
+            color: #6d6d6d;
+            text-decoration: none;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}

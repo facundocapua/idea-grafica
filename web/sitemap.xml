@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://idea-grafica.com.ar/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://idea-grafica.com.ar/nosotros</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://idea-grafica.com.ar/nosotros/clientes</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://idea-grafica.com.ar/soluciones</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://idea-grafica.com.ar/soluciones/vinilos</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://idea-grafica.com.ar/soluciones/marquesinas</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://idea-grafica.com.ar/soluciones/carteleria</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://idea-grafica.com.ar/soluciones/corporeos</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://idea-grafica.com.ar/galeria</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://idea-grafica.com.ar/galeria/corporeos</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://idea-grafica.com.ar/galeria/grafica-vehicular</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://idea-grafica.com.ar/galeria/vinilos</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://idea-grafica.com.ar/galeria/marquesinas</loc>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>
