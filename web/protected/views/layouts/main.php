@@ -81,6 +81,9 @@
     <div class="clear"></div>
 
     <div id="footer">
+        <div class="info">
+            Cuenca 2570 C.A.B.A., Argentina - Tel. 05411.3529.9770 - <a href="mailto:info@idea-grafica.com.ar">info@idea-grafica.com.ar</a>
+        </div>
         <ul>
             <li class="first"><a href="<?php echo $this->createUrl('aboutus/index/section/trajectory');?>">Nosotros</a></li>
             <li><a href="<?php echo $this->createUrl('solutions/index/section/gigantography');?>">Soluciones</a></li>

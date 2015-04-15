@@ -34,8 +34,9 @@
         <li>
             <h3 class="gotham-bold">CONTACTO</h3>
             <p>
-                A. Magari&ntilde;os Cervantes 2693 Buenos Aires, Argentina
-                Tel. 05411.4582.3041<br />
+                Cuenca 2570 C.A.B.A., Argentina<br />
+                C.P.: 1417<br />
+                Tel. 05411.3529.9770<br />
                 <a href="mailto:info@idea-grafica.com.ar">info@idea-grafica.com.ar</a>
             </p>
         </li>
