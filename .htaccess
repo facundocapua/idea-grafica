@@ -1,12 +1,12 @@
 Options +FollowSymLinks
 
-<IfModule mod_rewrite.c>
+#<IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^sitio\.ideagrafica\.local/$ [OR]
+#RewriteCond %{HTTP_HOST} ^sitio\.ideagrafica\.local/$ [OR]
 #RewriteCond %{HTTP_HOST} ^www\.test\.com$
-RewriteCond %{REQUEST_URI} !^/web/
+#RewriteCond %{REQUEST_URI} !^/web/
 RewriteRule (.*) /web/$1
-</IfModule>
+#</IfModule>
 
 # BEGIN GZIP
 <ifmodule mod_deflate.c>

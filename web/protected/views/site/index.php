@@ -36,7 +36,7 @@
             <p>
                 Cuenca 2570 C.A.B.A., Argentina<br />
                 C.P.: 1417<br />
-                Tel. 05411.3529.9770<br />
+                Tel. 05411.4502.3144<br />
                 <a href="mailto:info@idea-grafica.com.ar">info@idea-grafica.com.ar</a>
             </p>
         </li>

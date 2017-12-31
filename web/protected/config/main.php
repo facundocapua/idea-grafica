@@ -17,10 +17,10 @@ return array(
 
     'components'  => array(
         'db'          => array(
-            'connectionString' => 'mysql:host=localhost;dbname=idea_grafica',
+            'connectionString' => 'mysql:host=internal-db.s205966.gridserver.com;dbname=db205966_idea_grafica',
             'emulatePrepare'   => true,
-            'username'         => 'root',
-            'password'         => 'root',
+            'username'         => 'db205966_sites',
+            'password'         => 'Qgvk77-Ka5',
             'charset'          => 'utf8',
             'tablePrefix'      => '',
         ),
